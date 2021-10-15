@@ -1,0 +1,16 @@
+    .style {
+        color: red;
+    }
+    
+    .col-12 {
+        width: 40%;
+        color: #bc6a44;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .col-12 {
+            width: 100%;
+            background-color: saddlebrown;
+            color: slateblue;
+        }
+    }
